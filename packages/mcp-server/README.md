@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/mcp-sandbox-api-typescript.git
-cd mcp-sandbox-api-typescript
+git clone git@github.com:JinningYangO/mcp-sandbox.git
+cd mcp-sandbox
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,11 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "mcp_sandbox_api_api": {
       "command": "node",
-      "args": [
-        "/path/to/local/mcp-sandbox-api-typescript/packages/mcp-server",
-        "--client=claude",
-        "--tools=all"
-      ],
+      "args": ["/path/to/local/mcp-sandbox/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "MCP_SANDBOX_API_API_KEY": "My API Key"
       }
