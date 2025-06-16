@@ -1,4 +1,4 @@
 configured_endpoints: 4
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/oracle-america--inc-dash%2Fmcp-sandbox-api-e171396713621fb4b02b4deaee896464742987c9f8ce89bdfe528e47385255e5.yml
 openapi_spec_hash: a9ac56f1f28871895948bf1d1e69f684
-config_hash: eb933562b417367121d3fccdacfa28f1
+config_hash: 24ba9faa1d7d344241c6f4b0aa1faea1
